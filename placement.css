@@ -1,0 +1,145 @@
+
+body {
+  background-color:  #272c30;
+}
+.navbar {
+      background-color:  #272c30;
+     /* border-radius: 100px; */
+    /* border-width: 200cm;*/
+    width: 100%;
+    margin-top: 0%; 
+  }
+  .navbar ul{
+      overflow: auto;
+  }
+ .navbar li{
+      text-align: center;
+      list-style: none; 
+      margin: 0px 0px;
+      
+  } 
+  .navbar li a{
+      text-decoration: none;
+      text-align: center;
+      color: white;
+  }
+
+  .Box {
+        width: 300px;
+       border: 15px solid rgb(58, 59, 59);
+       padding: 50px;
+       margin: 20px;
+       background-color: rgb(58, 59, 59);
+              }
+  .Box p{
+    color: rgb(15, 13, 13)
+  }
+  #box1{
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+       -ms-flex-direction: column;
+       flex-direction: column;
+       min-width: 0;
+       word-wrap: break-word;
+       background-color: rgb(244, 244, 255);
+      background-clip: border-box;
+     border: 1px solid rgba(0,0,0,.125);
+     border-radius: 0rem;
+  }
+
+
+  .container{
+width: 90%;
+margin: auto;
+overflow: hidden;
+background:  rgb(250, 251, 255);
+margin-top: 20px;
+}
+
+.container ul{
+padding: 0px;
+margin: 0px;
+}
+
+
+.container ul li{
+float:left;
+list-style: none;
+width:20%;
+height:200px;
+background: rgb(247, 158, 158);
+margin :20px 0px 20px 55px; 
+border:2px solid rgb(56, 56, 58);
+box-sizing: border-box;
+}
+.container ul li:hover{
+opacity: 0.8;
+}
+
+.container ul li .bottom{
+width: 100%;
+height:50px;
+line-height: 50px;
+background:  rgb(70, 68, 68);   
+text-align: center;
+color:white;
+font-size: 20px;
+
+}
+h3,h2{
+text-align: center;
+font-size: 2em;
+}
+.placement>h4,h2{
+text-align: center;
+font-size: 1.3em;
+margin-left: 0.5cm;
+color: rgb(27, 26, 26)
+}
+
+.container ul li .bottom1{
+    width: 80%;
+    height:50px;
+    line-height: 50px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background:  rgb(19, 18, 18);   
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    
+    }
+
+    .container ul li .bottom2{
+        width: 80%;
+        height:30px;
+        line-height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        background:  rgb(19, 18, 18);   
+        text-align: center;
+        color:white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+
+    .mt-auto, .my-auto {
+        margin-top: auto!important;
+    }
+    .footer {
+        /* height: 40px; */
+        width: 100%;
+        background-color: #080808;
+        color: white;
+        font-size: 22px;
+        text-align: center;
+    }
+
+@media screen and (max-width:1250px){
+.container ul li{
+  width:40%;
+  margin-left: 40px;
+   
+}
