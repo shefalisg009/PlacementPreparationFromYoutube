@@ -180,7 +180,28 @@ color: rgb(27, 26, 26)
       background-color: #45a049;
     }
     
-   
+    a:link {
+      color: rgb(241, 247, 241);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    a:visited {
+      color: rgb(252, 59, 91);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(66, 63, 63);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: rgb(247, 247, 162);
+      background-color: transparent;
+      text-decoration: underline;
+    }
     
 
 @media screen and (max-width:1250px){
