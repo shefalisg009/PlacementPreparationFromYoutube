@@ -206,7 +206,7 @@ color: rgb(27, 26, 26)
 
 @media screen and (max-width:1250px){
 .container ul li{
-  width:100%;
+  width:80%;
   margin-left: 40px;
    
 }
