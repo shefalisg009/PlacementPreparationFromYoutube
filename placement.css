@@ -1,6 +1,7 @@
 
 body {
   background-color:  #272c30;
+  padding-bottom: auto;
 }
 .navbar {
       background-color:  #272c30;
@@ -55,11 +56,15 @@ margin: auto;
 overflow: hidden;
 background:  rgb(250, 251, 255);
 margin-top: 20px;
+position:-webkit-sticky;
 }
+
+
 
 .container ul{
 padding: 0px;
 margin: 0px;
+padding-bottom: 0;
 }
 
 
@@ -135,6 +140,8 @@ color: rgb(27, 26, 26)
         color: white;
         font-size: 22px;
         text-align: center;
+        position: absolute; 
+       
     }
 
 
@@ -178,7 +185,7 @@ color: rgb(27, 26, 26)
 
 @media screen and (max-width:1250px){
 .container ul li{
-  width:40%;
+  width:100%;
   margin-left: 40px;
    
 }
