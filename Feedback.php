@@ -19,13 +19,13 @@
       </div>
   
     <div class=" container">
-    <form class="form" action="index1.php">
+    <form class="form"  method="post" action="index.php">
       <div class="row">
         <div class="col-25">
           <label for="name">Name</label>
         </div>
         <div class="col-75">
-          <input type="text" id="name" name="name" placeholder="Your name..">
+          <input type="text" id="name" name="name" placeholder="Your name.." required>
         </div>
       </div>
       <div class="row">
@@ -33,7 +33,7 @@
           <label for="email">Email</label>
         </div>
         <div class="col-75">
-          <input type="text" id="email" name="email" placeholder="Your email">
+          <input type="text" id="email" name="email" placeholder="Your email" required>
         </div>
       </div>
       <div class="row">

@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,17 +35,17 @@
       <h3>Content For Placement</h3>
       <ul>
          <li> <div class="bottom">Programming Language</div> 
-               <div class="bottom1"><a href="Programming_language.html">Enter</a> </div> </li>
+               <div class="bottom1"><a href="Programming_language.php">Enter</a> </div> </li>
          <li> <div class="bottom">Core Subjects</div> 
-                <div class="bottom1"><a href="Core_Subjects.html">Enter</a> </div> </li> 
+                <div class="bottom1"><a href="Core_Subjects.php">Enter</a> </div> </li> 
           <li> <div class="bottom">DS Algo</div> 
-                  <div class="bottom1"> <a href = "Data_Structure.html">Enter</a> </div> </li> 
+                  <div class="bottom1"> <a href = "Data_Structure.php">Enter</a> </div> </li> 
           <li> <div class="bottom">Aptitude & Reasoning</div> 
-                    <div class="bottom1"><a href = "Aptitude.html">Enter</a> </div> </li> 
+                    <div class="bottom1"><a href = "Aptitude.php">Enter</a> </div> </li> 
           <li> <div class="bottom">Comptative Programming</div> 
-                      <div class="bottom1"><a href = "Comptative_Programming.html">Enter</a> </div> </li> 
+                      <div class="bottom1"><a href = "Comptative_Programming.php">Enter</a> </div> </li> 
           <li> <div class="bottom">Projects</div> 
-                    <div class="bottom1"><a href = "Projects.html">Enter</a> </div> </li> 
+                    <div class="bottom1"><a href = "Projects.php">Enter</a> </div> </li> 
       </ul>
   </div>
      
@@ -57,7 +58,6 @@
           <li> <div class="bottom">Computer Network</div> </li>
       </ul>
   </div>
-
   <div class="container">
       <h3>Data Structure</h3>
       <ul>
@@ -75,7 +75,7 @@
     </h2>
     <h4> please give your feedback and if you want to add something,  you can suggest for any specific topic. 
       </h4>
-      <h4><a href = "Feedback.html">Feedback Form</a></h4>
+      <h4><a href = "Feedback.php">Feedback Form</a></h4>
 </div>
 
   <footer class="container footer my-auto">
